@@ -47,34 +47,35 @@
                 android:textColorHint="@color/white"
                 android:id="@+id/password_login"
                 />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Log In"
+                android:background="@drawable/edittext_background"
+                android:textColor="@color/white"
+                android:id="@+id/btn_login"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Forget Password? "
+                android:textColor="@color/white"
+                android:id="@+id/forget_password"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="Don't have an account? Signup here: "
+                android:id="@+id/signup_reg"
+                />
 
         </LinearLayout>
     </ScrollView>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="Log In"
-        android:background="@drawable/edittext_background"
-        android:textColor="@color/white"
-        android:id="@+id/btn_login"
 
-        />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Forget Password? "
-        android:textColor="@color/white"
-        android:id="@+id/signup_reg"
-        />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textColor="@color/white"
-        android:text="Don't have an account? Signup here: "
-        android:id="@+id/signup_reg"
-        />
 </LinearLayout>

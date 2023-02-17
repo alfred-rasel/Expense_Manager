@@ -47,28 +47,29 @@
                 android:textColorHint="@color/white"
                 android:id="@+id/password_reg"
                 />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Registration"
+                android:background="@drawable/edittext_background"
+                android:textColor="@color/white"
+                android:id="@+id/btn_reg"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Already have an account ? sign in here: "
+                android:textColor="@color/white"
+                android:id="@+id/sign_in_here"
+
+                />
 
         </LinearLayout>
     </ScrollView>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:text="Registration"
-        android:background="@drawable/edittext_background"
-        android:textColor="@color/white"
-        android:id="@+id/btn_reg"
 
-        />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Already have an account ? sign in here: "
-        android:textColor="@color/white"
-        android:id="@+id/sign_in_here"
-
-        />
 
 </LinearLayout>
